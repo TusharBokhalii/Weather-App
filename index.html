@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="cloud.png" type="image/x-icon">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="shortcut icon" href="clouded-weather-svgrepo-com.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="search-bar">
+                <i class="ri-map-pin-2-fill"></i>
+                <input type="text" title="Search" id="Searchings" placeholder="Search Location" >
+                <button class="ri-search-line"></button>
+        </div>
+        <div class="images-weather">
+            <div class="first">
+                <img src="cloud.png" id="backgrounds" alt="">
+                <div class="not"></div>
+            </div>
+            
+        </div>
+        <div class="weather-svg">
+            <img src="sun.png" alt="">
+            <div class="weather-city-name"></div>
+            <div class="main-top-degree">0<span>°C</span></div>
+        </div>
+        <div class="second-other-weather">
+            <div class="flexibles">
+                <div class="ri-contrast-drop-2-line">
+                </div>
+                <div class="center">
+                    <p class="per">0%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="flexibles">
+
+                <div class="ri-cloud-windy-line">
+                </div>
+                <div class="center">
+                    <p class="speed">0Km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
